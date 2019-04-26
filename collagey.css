@@ -10,6 +10,9 @@
       font-size: 45px !important;
       
     }
+    #center-txt {
+      margin-left: 15% !important;
+    }
     
   }
   /*Footer*/
@@ -113,9 +116,9 @@ div.box1 p {
 
 /*Side Navigation menu end*/
 
-.center-txt {
-  text-align: ;
-  padding:2rem 1rem;margin-bottom:2rem;
+#center-txt {
+  padding:2rem 1rem;
+  margin-bottom:2rem;
   border-radius:.3rem;
   margin-left: 40%;
 }
@@ -124,5 +127,10 @@ div.box1 p {
   position: relative;
   width: 100%;
   margin-top: 150px;
-  
+}
+
+.container-space-2 {
+  position: relative;
+  width: 100%;
+  margin-top: 400px;
 }
