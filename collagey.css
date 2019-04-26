@@ -1,0 +1,128 @@
+ body {
+    margin: 0;
+    font-family: 'verdana';
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    div.box1 p {
+      line-height: 45px !important;
+      font-size: 45px !important;
+      
+    }
+    
+  }
+  /*Footer*/
+  #sticky {
+    width:100%;
+    padding: 150px;
+    padding-bottom: 32px;
+    background: #e7e3d4;
+    color:black;
+    font-weight: normal;
+    font-size: 15px;
+    text-align:center;
+    position: relative;    /*Here's what sticks it*/
+    bottom:0;          /*to the bottom of the body*/
+    left:0;            /*and to the left of the body.*/
+ 
+  }
+  
+ 
+.box1 {
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(114, 119, 148, 0.75), rgba(114, 119, 148, 0.75)),
+  url('./studygroup.jpg');
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  
+  
+  
+}
+
+div.box1 p {
+  line-height: 65px;
+  font-size: 50px;
+  color: white;
+  position: relative;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sticky a {
+  color: black;
+}
+
+.header1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.txtstyle {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+/*Side Navication menu*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  right: 0;
+  background-color: #8590aa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #b23850;
+  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute !important;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.customnav {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+       
+}
+
+/*Side Navigation menu end*/
+
+.center-txt {
+  text-align: ;
+  padding:2rem 1rem;margin-bottom:2rem;
+  border-radius:.3rem;
+  margin-left: 40%;
+}
+
+.container-space {
+  position: relative;
+  width: 100%;
+  margin-top: 150px;
+  
+}
